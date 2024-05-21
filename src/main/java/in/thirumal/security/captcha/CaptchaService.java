@@ -32,7 +32,7 @@ import jakarta.servlet.http.HttpServletRequest;
  * @author Thirumal
  *
  */
-@Service("captchaService")
+@Service
 public class CaptchaService implements ICaptchaService {
 
 	private static final Logger LOGGER = LoggerFactory.getLogger(CaptchaService.class);

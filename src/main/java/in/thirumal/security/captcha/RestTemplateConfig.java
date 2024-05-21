@@ -20,7 +20,8 @@ public class RestTemplateConfig {
      */
     @Bean
     RestTemplate restTemplate() {
-	    return new RestTemplate(httpRequestFactory());
+	    // return new RestTemplate(httpRequestFactory());
+		return new RestTemplate();
 	}
 
 	private ClientHttpRequestFactory httpRequestFactory() {

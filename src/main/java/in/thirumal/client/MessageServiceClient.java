@@ -14,7 +14,7 @@ import in.thirumal.model.Message;
  * @author Thirumal
  *
  */
-@FeignClient(name = "message-service", configuration = MessageServiceConfig.class, fallback =  MessageServiceFallback.class)
+// @FeignClient(name = "message-service", configuration = MessageServiceConfig.class, fallback =  MessageServiceFallback.class)
 public interface MessageServiceClient {
 	
 	@PostMapping(value = "/sms/3")

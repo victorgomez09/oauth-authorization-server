@@ -8,7 +8,7 @@ import org.springframework.cloud.openfeign.EnableFeignClients;
  * @author Thirumal
  *
  */
-@EnableFeignClients
+// @EnableFeignClients
 @SpringBootApplication
 public class OauthAuthorizationServerApplication {
 
